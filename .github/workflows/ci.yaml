@@ -1,7 +1,7 @@
 name: ci-sonarcloud
 on: [push]
-jobs:
-  run-ci:
+jobs: 
+  check-application:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
